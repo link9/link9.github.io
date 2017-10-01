@@ -1,0 +1,142 @@
+
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {outline: none;}
+
+html,
+body {
+    background-color: #ffffff;
+    color: #505050;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #505050;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------- */
+/* NAVIGATION BAR */
+/* ----------------------------------------------- */
+
+.nav {
+    margin: 0 0 30px 0;
+    padding: 0;
+    background-color: #262626;
+    color: #e2e2e2;
+}
+
+.nav .col {
+    height: 30px;
+    vertical-align: middle;
+    margin-top:15px;
+}
+
+.col-search input[type=text] {
+    display: inline-block;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    font-size: 90%;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.col-search input[type=submit] {
+    display: inline-block;
+    border: 1px solid #959595;
+    background: black;
+    font-weight: 400;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.nav li {
+    float: right;
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 90%;
+}
+
+.nav li a:link,
+.nav li a:visited {
+    color: #d8d8d8;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.nav li a:hover,
+.nav li a:active {
+    color: #d8d8d8;
+    text-decoration: none;
+    border-bottom: 2px solid #1d7ab4;
+    
+}
+
+/* ----------------------------------------------- */
+/* VARIANT TABLE */
+/* ----------------------------------------------- */
+
+
+#variantTable {
+    font-size: 80%;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0;
+    text-align: left;
+    border-spacing: 50px;
+    border:0px solid #000000;
+}
+
+#variantTable th {
+    padding: 5px;
+    border-bottom: 2px solid #a0a0a0;
+}
+
+#variantTable th a:link,
+#variantTable th a:visited
+{
+    color: #505050;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#variantTable th a:hover,
+#variantTable th a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#variantTable td {
+    padding: 5px;
+}

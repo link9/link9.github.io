@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <Head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="#">
+        <title>Viewer For Genomic CDM</title>
+    </Head>
+    
+    <body>
+        <section class="nav">
+            <div class="row">
+            
+                <div class="col span-1-of-4 col-header">
+                    <h1>Viewer For CDMG</h1>
+                </div>
+
+                <div class="col span-2-of-4 col-search">
+                    
+                        <form action="#">
+                            <input type="text" value="Genes, Variants ..."/>
+                            <input type="submit" value="Search"/>
+                        </form>
+                    
+                </div>
+
+                <div class="col span-1-of-4 col-pages">
+                        <ul>
+                            <li><a href="#">Statistics</a></li>
+                            <li><a href="#">About</a></li>
+
+                        </ul>
+                </div>
+            </div>
+        </section>
+        
+        추가 예정:
+            나이, 성별 막대그래프
+        
+        <section id="variantTable">
+        </section>
+        
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src='resources/js/gene.js'></script>
+        
+    </body>
+</html>
